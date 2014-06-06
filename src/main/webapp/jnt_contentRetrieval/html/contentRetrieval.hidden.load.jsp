@@ -58,6 +58,7 @@
 <%-- Set variables to store the result --%>
 <c:set target="${moduleMap}" property="editable" value="false" />
 <c:set target="${moduleMap}" property="listQuery" value="${listQuery}" />
+<c:set target="${moduleMap}" property="listLimit" value="${nbOfResult.long}" />
 <c:set target="${moduleMap}" property="emptyListMessage">
    <c:choose>
    <c:when test="${not empty noResultsMessage}">

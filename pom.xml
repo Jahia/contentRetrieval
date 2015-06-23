@@ -81,7 +81,7 @@
 		<relativePath />
     </parent>
     <groupId>org.jahia.modules</groupId>
-    <version>7.1.0</version>
+    <version>7.1.1-SNAPSHOT</version>
     <artifactId>contentRetrieval</artifactId>
     <packaging>bundle</packaging>
     <name>Jahia Content retrieval</name>
@@ -90,7 +90,7 @@
         <connection>scm:git:git@github.com:Jahia/contentRetrieval.git</connection>
         <developerConnection>scm:git:git@github.com:Jahia/contentRetrieval.git</developerConnection>
         <url>https://github.com/Jahia/contentRetrieval</url>
-      <tag>7_1_0</tag>
+      <tag>HEAD</tag>
   </scm>
     <repositories>
         <repository>

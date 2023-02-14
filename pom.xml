@@ -66,6 +66,7 @@
     </scm>
 
     <properties>
+        <jahia-depends/>
         <jahia-module-signature>MCwCFD2e5tDxpLylFR5oxPOXZCC2r6gsAhQuwR0XWNudZXDIMPXqFXpwzMatdQ==</jahia-module-signature>
     </properties>
 

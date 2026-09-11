@@ -29,7 +29,7 @@
 
 <%-- Display title (if it is skinnable the title is displayed with skin--%>
 <c:if test="${not empty title and not empty title.string and not jcr:isNodeType(currentNode, 'jmix:skinnable')}">
-     <h3>${title.string}</h3>
+     <h3>${fn:escapeXml(title.string)}</h3>
 </c:if>
 <c:if test="${not empty startNode}">
     <c:set var="startNode" value="${startNode.node}"/>
@@ -63,7 +63,7 @@
 <c:set target="${moduleMap}" property="emptyListMessage">
    <c:choose>
    <c:when test="${not empty noResultsMessage}">
-      ${noResultsMessage.string}
+      ${fn:escapeXml(noResultsMessage.string)}
    </c:when>
    <c:otherwise>
        <fmt:message key='noResults.message'/>

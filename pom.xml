@@ -49,7 +49,7 @@
     <parent>
         <groupId>org.jahia.modules</groupId>
         <artifactId>jahia-modules</artifactId>
-        <version>8.0.0.0</version>
+        <version>8.2.0.0</version>
 		<relativePath />
     </parent>
     <groupId>org.jahia.modules</groupId>
@@ -67,7 +67,7 @@
 
     <properties>
         <jahia-depends />
-        <jahia-module-signature>MCwCFGNDyICf7LNVxHeMnhgAaVpMyaTJAhQVVLo1KZUhYsqIf1iZrtS3KnfHOQ==</jahia-module-signature>
+        <jahia-module-signature>MCwCFARu8y5G/H5SU+dyr2qX2tIs57pSAhQ9s9Dh3wHqEUW55A8jX9GKxSFlSw==</jahia-module-signature>
     </properties>
 
     <dependencies>

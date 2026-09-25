@@ -1,6 +1,6 @@
 # contentRetrieval Changelog
 
-## 0.1.0
+## 8.3.2
 
 ### New Features
 

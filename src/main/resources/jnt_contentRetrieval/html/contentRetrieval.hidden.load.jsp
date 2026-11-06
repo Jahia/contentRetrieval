@@ -58,7 +58,7 @@
 <%-- <p>Debug > Nb of result from query (Criteria : ${criteria.string} - Nb of result : ${nbOfResult.long} - Mode : ${mode.string}) : ${fn:length(result.nodes)}</p>  --%>
 
 <%-- Set variables to store the result --%>
-<c:set target="${moduleMap}" property="editable" value="false" />
+<c:set target="${moduleMap}" property="editable" value="true" />
 <c:set target="${moduleMap}" property="listQuery" value="${listQuery}" />
 <c:set target="${moduleMap}" property="emptyListMessage">
    <c:choose>
